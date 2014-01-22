@@ -1,0 +1,48 @@
+body {
+    height: auto !important;
+}
+
+.tvnet, .apollo, .diena, .chaulatv, .adv_urls_t, .adv_urls_b, .adv_urls, .right_banner, .left_banner, #top_adv_box, #top_adv_box_r, #top_sub_nav, #idx_content {
+    display: none !important;
+}
+
+#bc_wrap,
+#content_wrap,
+#top_adv_box_r {
+    width: auto !important;
+    max-width: 960px;
+}
+
+.top_nav {
+    overflow-x: hidden !important;
+}
+
+#login_box_main {
+    top: 82px !important;
+    background: #fff !important;
+    border-radius: 10px !important;
+    width: 100% !important;
+}
+
+#login_box_wrap {
+    margin: 0 auto !important;
+}
+
+#eklase_login {
+    width: 185px !important;
+    margin: 0 auto !important;
+}
+
+#eklase_login * {
+    position: static !important;
+}
+
+#eklase_login a {
+    display: none !important;
+}
+
+#eklase_login button {
+    width: 160px !important;
+    background: #469d50 !important;
+    border-radius: 4px;
+}

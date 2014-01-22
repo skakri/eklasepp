@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+
+  "name": "E-klase++",
+  "description": "E-klase on steroids! Improve your grades today!",
+  "version": "1.3",
+
+  "permissions": [
+    "*://*.eklase.lv/*",
+    "*://eklase.lv/*",
+    "*://*.e-klase.lv/*",
+    "*://e-klase.lv/*"
+  ],
+  "browser_action": {
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.eklase.lv/*",
+        "*://eklase.lv/*",
+        "*://*.e-klase.lv/*",
+        "*://e-klase.lv/*"
+      ],
+      "css": ["draza.css"],
+      "js": ["draza.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
