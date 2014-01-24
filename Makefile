@@ -1,5 +1,4 @@
-all: gather crx clean rmpem
-dist: gather zip clean
+all: gather zip crx clean rmpem
 
 gather: src/eklasepp.js src/eklasepp.less
 	lessc src/eklasepp.less -x build/eklasepp.css && cp src/eklasepp.js build/

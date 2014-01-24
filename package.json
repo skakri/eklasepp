@@ -4,7 +4,7 @@
   "description": "E-klase++",
   "main": "eklasepp.js",
   "scripts": {
-    "install": "VERSION=$npm_package_version make all dist && exit 0"
+    "install": "VERSION=$npm_package_version make all && exit 0"
   },
   "repository": {
     "type": "git",
