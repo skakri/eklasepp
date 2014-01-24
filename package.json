@@ -1,0 +1,25 @@
+{
+  "name": "eklasepp",
+  "version": "1.3.0",
+  "description": "E-klase++",
+  "main": "eklasepp.js",
+  "scripts": {
+    "install": "VERSION=$npm_package_version make all dist && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/skakri/eklasepp.git"
+  },
+  "keywords": [
+    "e-klase"
+  ],
+  "author": "Kristaps Karlsons <kristaps.karlsons@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skakri/eklasepp/issues"
+  },
+  "homepage": "https://github.com/skakri/eklasepp",
+  "dependencies": {
+    "less": "~1.6.1"
+  }
+}
