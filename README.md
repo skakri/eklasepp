@@ -16,4 +16,4 @@ cd eklasepp
 npm install
 ```
 
-Izejas crx fails pieejams dist/crx/eklasepp-<versija>.crx
+Izejas crx fails pieejams dist/crx/eklasepp-\<versija\>.crx
